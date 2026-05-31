@@ -1,2 +1,2 @@
 #include "Scheduler.h"
-void Scheduler::start() {}
+void Scheduler::start() { }

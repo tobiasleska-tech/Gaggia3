@@ -1,2 +1,2 @@
 #include "Api.h"
-void Api::setup() {}
+void Api::setup() { }

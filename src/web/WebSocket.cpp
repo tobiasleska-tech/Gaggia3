@@ -1,2 +1,2 @@
 #include "WebSocket.h"
-void WebSocket::setup() {}
+void WebSocket::setup() { }

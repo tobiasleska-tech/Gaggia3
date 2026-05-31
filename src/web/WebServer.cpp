@@ -1,3 +1,3 @@
 #include "WebServer.h"
-void WebServer::begin() {}
-void WebServer::loop() {}
+void WebServer::begin() { }
+void WebServer::loop() { }

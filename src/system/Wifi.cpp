@@ -1,2 +1,2 @@
 #include "Wifi.h"
-void Wifi::begin() {}
+void Wifi::begin() { }

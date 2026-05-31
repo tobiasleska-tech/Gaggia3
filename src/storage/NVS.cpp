@@ -1,2 +1,2 @@
 #include "NVS.h"
-void NVS::begin() {}
+void NVS::begin() { }

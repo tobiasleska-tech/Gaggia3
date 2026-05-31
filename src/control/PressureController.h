@@ -4,4 +4,5 @@ public:
     static void begin();
     static void loop();
     static void setTarget(float bar);
+    static float getTarget();
 };
