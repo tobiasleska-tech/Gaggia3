@@ -1,6 +1,5 @@
 #pragma once
-class WebServer {
+class NVS {
 public:
     static void begin();
-    static void loop();
 };

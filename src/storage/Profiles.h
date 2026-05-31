@@ -1,5 +1,5 @@
 #pragma once
-class Settings {
+class Profiles {
 public:
     static void load();
 };

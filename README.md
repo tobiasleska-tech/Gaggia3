@@ -1,22 +1,9 @@
 # Gaggia3
 
-Moderne, minimalistische ESP32-S3-Firmware für Gaggia-Style Kaffeemaschinen  
-- PWM Pumpenregelung
-- Druck- und Flussprofilierung
-- Web- und API-Interface (REST, WebSocket)
-- Headless (kein Display, BLE, Scale etc.)
+Moderne, minimalistische ESP32-S3-Firmware für Gaggia-Style Kaffeemaschinen.  
+Funktionen: PWM Pumpenregelung, Profilsteuerung, Web-API, OTA – **ohne** Display, BLE oder Mehr-MCU.
 
-# Architektur
+**Architektur:** Modular nach control, sensor, web, storage, system.
+**Kern:** Hochwertige Regeltechnik, Profile- und Sensorverarbeitung, Webschnittstellen.
 
-- Modular (Control, Sensor, Web, Storage, System)
-- Erweiterbar um Profile/Regel-Algorithmen
-- ESP32-S3, Arduino-Framework, PlatformIO
-
-Bitte beachte:  
-Alle Algorithmen und Regelstrukturen werden aus GaggiMate analytisch übernommen und komplett neu integriert — kein Fork/kein direktes Clonen.
-
-## ToDo
-
-- Implementierung der Regelung und State Machines
-- WebUI entwickeln und anbinden
-- Profile/Settings persistieren
+**Hardware:** ESP32-S3, PWM-Pumpe, Drucksensor, Flowsensor, WLAN.
