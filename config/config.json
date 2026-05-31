@@ -1,0 +1,7 @@
+{
+  "wifi_ssid": "dein_ssid",
+  "wifi_password": "dein_passwort",
+  "pump_pwm_pin": 18,
+  "pressure_sensor_pin": 36,
+  "flow_sensor_pin": 39
+}
